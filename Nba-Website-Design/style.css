@@ -196,13 +196,14 @@ header .fa-bars {
     padding: 1rem 0;
 }
 
-.about .box-container{
+.about .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.about .box-container .box{
+
+.about .box-container .box {
     padding: 2rem 1rem;
     text-align: center;
     border: 2rem solid var(--green);
@@ -210,20 +211,71 @@ header .fa-bars {
     margin: 2rem;
 }
 
-.about .box-container .box i{
+.about .box-container .box i {
     color: #333;
     font-size: 2.5rem;
     padding: 1rem 0;
 }
 
-.about .box-container .box p{
+.about .box-container .box p {
     color: #666;
     font-size: 1.7rem;
 
 }
 
+.service {
+    background: #f0f0f0;
+    min-height: 100vh;
+}
 
-    
+
+.service .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service .box-container .box{
+    flex:1 1 25rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #fff;
+    border: .2rem solid var(--green);
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.service .box-container .box i{
+    color: var(--green);
+    font-size: 4rem;
+    padding: 1rem 0;
+}
+
+.service .box-container .box h3{
+    color: #333;
+    font-size: 2rem;
+}
+.service .box-container .box p{
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.service .box-container .box a{
+  color: #333;
+  font-size: 1.7rem;
+  }
+
+  .service .box-container .box a:horver{
+      color: var(--green);
+  }
+  .service .box-container .box:hover{
+      box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+  }
+
 /* media queries */
 
 @media(max-width:768px) {
