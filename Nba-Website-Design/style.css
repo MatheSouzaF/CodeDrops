@@ -474,6 +474,101 @@ select {
     font-size: 1.5rem;
 }
 
+.footer{
+    background: #333;
+}
+.footer .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.footer .box-container .box{
+    margin: 2rem;
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box .logo{
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color: #ccc;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .share{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+.footer .box-container .box:nth-child(2) a{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #eee;
+    display: block;
+    padding: .5rem 0;
+}
+
+
+.footer .box-container .box:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .letter{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.footer .box-container .box form input[type="email"]{
+    padding: 0 1rem;
+    outline: none;
+    border: .2rem solid var(--green);
+    background: none;
+    font-size: 1.7rem;
+    color: #fff;
+    height: 4rem;
+    width: 74%;
+}
+
+
+.footer .box-container .box form button{
+    outline: none;
+    border: none;
+    background: var(--green);
+    font-size: 1.9rem;
+    color: #fff;
+    height: 4rem;
+    width: 25%;
+    cursor: pointer;
+}
+
+.footer .box-container .box form button:hover{
+    color: var(--green);
+    background: none;
+    border: .1rem solid var(--green);
+}
+
+.footer .credit{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    border-top: .1rem  solid #ccc;
+}
+
+.footer .credit span{
+    color: var(--green);
+}
+
 /* media queries */
 
 @media(max-width:768px) {
