@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+:root {
+    --green: #0d9979;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2' sans-serif;
+    text-transform: uppercase;
+    transition: .2s linear;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+header{
+    .logo{
+        position: fixed;
+        top:2rem;
+    }
+}
